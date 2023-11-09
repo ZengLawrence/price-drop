@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import VendorPriceList from './components/VendorPriceList';
 
 function App() {
   const prodName = "RISE Nitro Cold Brew Coffee, 7 fl oz";
@@ -12,6 +13,9 @@ function App() {
       <h1>
         {prodName}
       </h1>
+      <p>
+        <VendorPriceList />
+      </p>
     </div>
   );
 }
